@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("./desktop-wallpaper-lubuntu18-04-for-linux-entire-collection-dark-lubuntu.jpg");
+    background-size: cover;
+}
+
+.calculator {
+    text-align: center;
+}
+
+.display {
+    width: 100%;
+    padding: 10px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    border-radius: 30%;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.key {
+    padding: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.key:active {
+    background-color: #ff0000;
+}
+
+.operator {
+    background-color: #ffb300;
+}
+
+.operator:active {
+    background-color: #ff0000;
+}
+
+.equal {
+    background-color: #FF9800;
+    color: white;
+}
+
+.equal:active {
+    background-color: #ff0000;
+}
+
+.khan {
+    background-color: #ff0000;
+}
